@@ -47,7 +47,7 @@ afterEach(() => {
   const inputDate = screen.getByPlaceholderText("mm/dd/yyyy");
   const element = screen.getByRole('button', {name: /Add/i});
   const dueDate = "10/10/2021";
-  fireEvent.change(inputTask, { target: { value: null}});
+  fireEvent.change(inputTask, { target: { value: ""}});
   fireEvent.change(inputDate, { target: { value: dueDate}});
   fireEvent.click(element);
   const checkDate = screen.queryByText(new RegExp(dueDate, "i"));
