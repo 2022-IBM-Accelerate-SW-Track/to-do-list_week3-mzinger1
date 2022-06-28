@@ -18,11 +18,17 @@ export default class About extends Component {
         </div>
         <div className="split right">
           <div className="centered">
-            <div className="name_title">Your Name</div>
+            <div className="name_title">Michelle Zinger</div>
             <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
+              <p> I am a rising Junior at Northeastern University in Boston, MA.</p>
+              <p> I am studying Computer Science with a concentration in Software.</p>
+              <p> I am originally from Westchester, NY.</p>
             </div>
+            <div>
+          <p>Connect with Me!</p>
+          <button type = "button"><a href="https://www.linkedin.com/in/michellezinger23/">LinkedIn</a></button>
+          <button type = "button"><a href="https://github.com/mzinger1">Github</a></button>
+        </div>
           </div>
         </div>
       </div>
